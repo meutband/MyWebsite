@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Jazz LET", fantasy;
+        color: #777;
+        scroll-behavior: smooth;
+    }
+
+    .home, .skills, .portfolio, .contact {
+        overflow: hidden;
+        position: relative;
+        opacity: 0.6;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home, .contact {
+        background-image: url({{ url_for('static', filename='images/back1.jpg') }});
+        min-height: 500px;
+        z-index: 0;
+    }
+
+    .skills {
+        background-image: url({{ url_for('static', filename='images/back2.jpg') }});
+        min-height: 400px;
+        z-index: 0;
+    }
+
+    .portfolio {
+        background-image: url({{ url_for('static', filename='images/back3.jpg') }});
+        min-height: 400px;
+        z-index: 0;
+    }
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .caption span.border {
+        background-color: #111;
+        color: #fff;
+        opacity: 0.6;
+        padding: 15px;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        background-color: #000;
+        display: block;
+        scroll-behavior: smooth;
+        width: 100%;
+        opacity: 0.8;
+        z-index: 1;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        vertical-align: middle;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+    }
+
+    h2.h3 {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    h2.h3:before,
+    h2.h3:after {
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    h2.h3:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+
+    h2.h3:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+
+    ul {
+        overflow:hidden;
+        white-space:nowrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display:inline;
+        margin: 10px;
+        text-align: center;
+    }
+
+    @media only screen and (max-device-width: 1024px) {
+        .home, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <div id="navbar" class="navbar">
+            <a href="#home" >MARK EVANS</a>
+            <a href="#about" >ABOUT</a>
+            <a href="#skills" >SKILLS</a>
+            <a href="#work" >WORK</a>
+            <a href="#portfolio" >PORTFOLIO</a>
+            <a href="#blog" >BLOG</a>
+            <a href="#contact" >CONTACT</a>
+        </div>
+
+        <section id="home" class="home">
+            <div class="caption">
+                <h1>Welcome to my site.</h1>
+                <span class="border"><a href="#contact" style="text-decoration: none; color: #fff">CONTACT ME</a></span>
+                <ul style="margin-top:20px;">
+                    <li><a href="https://www.facebook.com/meutband"><img src=" {{ url_for('static', filename='images/facebook.svg') }} " style="height:40px; width:40px" title="Facebook"></a></li>
+                    <li><a href="https://twitter.com/markhevans1"><img src=" {{ url_for('static', filename='images/twitter.svg') }} " style="height:40px; width:40px" title="Twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/markhevans/"><img src=" {{ url_for('static', filename='images/linkedin.svg') }} " style="height:40px; width:40px" title="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="about" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT ME&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;SKILLS&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <section id="work" class="work" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;WORK&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIO&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <section id="blog" class="blog" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;BLOG&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <section id="contact" class="contact" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT ME&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </section>
+
+        <footer class="footer" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+            <h2 class="h3" style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;FOOTER&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            <div class="caption" style="position: relative">
+                <span class="border">COOL!</span>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+
+</html>
