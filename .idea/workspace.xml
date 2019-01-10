@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68a92ab-a4c3-4f6d-a295-c780cea24b49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/social/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/social/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/social/twitter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/LinkedIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Skype.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/YouTube1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/YouTube2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/back1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/back2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/back3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/facebook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/github.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/linkedin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/skype.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/skype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/twitter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/youtube.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -51,9 +25,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="4275">
               <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -161,6 +149,8 @@
         <option value="$PROJECT_DIR$/static/js/popup-home.js" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -178,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,6 +220,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="117" y="23" width="1177" height="758" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23615918" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -343,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="4275">
           <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -367,6 +358,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -376,6 +374,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
